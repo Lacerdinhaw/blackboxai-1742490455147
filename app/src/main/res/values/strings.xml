@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Churrasquinho App</string>
+    
+    <!-- Dashboard -->
+    <string name="daily_summary">Resumo do Dia</string>
+    <string name="sales_today">Vendas hoje: %1$d</string>
+    <string name="revenue">Receita: %1$s</string>
+    <string name="inventory">Estoque</string>
+    <string name="sales">Vendas</string>
+    <string name="low_stock_alerts">Alertas de Estoque Baixo</string>
+    <string name="no_low_stock">Nenhum item com estoque baixo</string>
+    <string name="register_sale">Registrar Venda</string>
+
+    <!-- Inventory -->
+    <string name="add_item">Adicionar Item</string>
+    <string name="edit_item">Editar Item</string>
+    <string name="search_item">Buscar item</string>
+    <string name="no_items">Nenhum item cadastrado</string>
+    <string name="current_stock">Estoque atual: %1$d %2$s</string>
+    <string name="minimum_stock">Estoque mínimo: %1$d %2$s</string>
+    <string name="cost_price">Preço de custo: %1$s/%2$s</string>
+    <string name="selling_price">Preço de venda: %1$s/%2$s</string>
+    <string name="delete_confirmation">Confirmar exclusão</string>
+    <string name="delete_item_confirmation">Deseja realmente excluir o item \'%1$s\'?</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="replenish">Repor</string>
+    <string name="low_stock_warning">Estoque baixo!</string>
+
+    <!-- Add/Edit Item -->
+    <string name="item_name">Nome do Item</string>
+    <string name="quantity">Quantidade</string>
+    <string name="unit">Unidade (kg, unidade, etc)</string>
+    <string name="cost_price_hint">Preço de Custo</string>
+    <string name="selling_price_hint">Preço de Venda</string>
+    <string name="minimum_stock_hint">Estoque Mínimo</string>
+    <string name="save">Salvar</string>
+    <string name="item_saved">Item salvo com sucesso</string>
+    <string name="item_deleted">Item excluído com sucesso</string>
+
+    <!-- Sales -->
+    <string name="sales_summary">Resumo de Vendas</string>
+    <string name="filter">Filtrar</string>
+    <string name="total_sales">Total de vendas: %1$d</string>
+    <string name="total_revenue">Receita total: %1$s</string>
+    <string name="no_sales">Nenhuma venda registrada</string>
+    <string name="select_date_range">Selecione o período</string>
+    <string name="quantity_sold">Quantidade: %1$d %2$s</string>
+    <string name="unit_price">Preço unitário: %1$s/%2$s</string>
+    <string name="total_value">Total: %1$s</string>
+
+    <!-- Add Sale -->
+    <string name="select_item">Selecione um item</string>
+    <string name="quantity_hint">Quantidade</string>
+    <string name="unit_price_hint">Preço por unidade</string>
+    <string name="register_sale_button">Registrar Venda</string>
+    <string name="sale_registered">Venda registrada com sucesso</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_quantity">Quantidade inválida</string>
+    <string name="error_insufficient_stock">Quantidade maior que o estoque disponível</string>
+    <string name="error_invalid_price">Preço inválido</string>
+    <string name="error_selling_price_lower">Preço de venda deve ser maior que o preço de custo</string>
+    <string name="error_required_field">Campo obrigatório</string>
+    <string name="error_loading_item">Erro ao carregar item</string>
+    <string name="error_saving_item">Erro ao salvar item</string>
+    <string name="error_deleting_item">Erro ao excluir item</string>
+    <string name="error_registering_sale">Erro ao registrar venda</string>
+</resources>
