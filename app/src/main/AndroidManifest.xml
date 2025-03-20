@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".ChurrasquinhoApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChurrasquinhoApp"
+        tools:targetApi="31">
+
+        <!-- Dashboard Activity (Main/Launcher Activity) -->
+        <activity
+            android:name=".ui.activities.DashboardActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Inventory Management Activities -->
+        <activity
+            android:name=".ui.activities.InventoryActivity"
+            android:label="@string/inventory"
+            android:parentActivityName=".ui.activities.DashboardActivity" />
+
+        <activity
+            android:name=".ui.activities.AddEditItemActivity"
+            android:label="@string/add_item"
+            android:parentActivityName=".ui.activities.InventoryActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Sales Management Activities -->
+        <activity
+            android:name=".ui.activities.SalesActivity"
+            android:label="@string/sales"
+            android:parentActivityName=".ui.activities.DashboardActivity" />
+
+        <activity
+            android:name=".ui.activities.AddSaleActivity"
+            android:label="@string/register_sale"
+            android:parentActivityName=".ui.activities.SalesActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+
+</manifest>
