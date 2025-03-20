@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Backup the database -->
+    <include domain="database" path="." />
+    <!-- Backup shared preferences -->
+    <include domain="sharedpref" path="." />
+    <!-- Exclude cache directories -->
+    <exclude domain="external" path="cache/" />
+    <exclude domain="root" path="cache/" />
+</full-backup-content>
